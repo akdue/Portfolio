@@ -1,0 +1,38 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 1rem = 10px */
+html {
+  /* font-size: 10px; */
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button,
+[type="submit"] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* End CSS Reset */

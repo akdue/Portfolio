@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Fonts -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Abdalkreem Abuaresh</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I'M A ASP.Net Developer</h1>
+          <p class="bio__objective">
+            My Name
+            <span class="bio__name">Abdalkreem</span>,<br />
+            CEO <a href="https://www.akdue.com/" target="_blank">Akdue.com</a> |
+            Web Developer Specializing in ASP.NET
+            <br />
+            <a
+              href="https://www.facebook.com/abdalkreemabuaresh/"
+              class="bio__facebook"
+              target="_blank"
+              >Facebook</a
+            >,
+            <a
+              href="https://www.linkedin.com/in/abdalkreem/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >,
+            <a
+              href="https://x.com/AbdalkreemAA"
+              class="bio__twitter"
+              target="_blank"
+              >Twitter</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="./CV.pdf" class="bio__links find-out-link" target="_blank"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic.png"
+            alt="image of Abdalkreem"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">ASP.NET</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">C#</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">4 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">4 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="./images/thumbnail.jpg" controls>
+          <source src="./video.mp4" />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          My Featured <br />
+          Projects
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="images/project-1.jpg"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">New Website Launch for <br />AKDue</h3>
+            <p class="projects__description">
+              The AKDue website project is a comprehensive online platform
+              designed to propel businesses toward success. This project focuses
+              on creating a user-friendly interface that integrates essential
+              features such as work portfolios, pricing plans, and contact
+              information. The site is designed with a modern aesthetic,
+              emphasizing simplicity and ease of navigation. Key elements
+              include a prominent search bar, intuitive navigation menus, and a
+              visually appealing layout that ensures users can easily find the
+              information they need. The tagline "Make Success for Future"
+              encapsulates the mission of AKDue to support business growth and
+              achievement.
+            </p>
+            <a
+              href="https://www.akdue.com"
+              class="projects__links"
+              target="_blank"
+              >Akdue.com</a
+            >
+          </div>
+          <div class="projects__data">
+            <h3 class="h3-heading">FrontEnd Developer <br />Portfolio</h3>
+            <p class="projects__description">
+              The FrontEnd Developer portfolio project showcases a
+              professional's skill set and completed works in a visually
+              engaging manner. This portfolio site is tailored to highlight the
+              developer's projects across various platforms, including desktops,
+              laptops, and mobile devices. The homepage features an overview of
+              the developer's expertise, with detailed sections for each
+              project, illustrating the use of different technologies and
+              methodologies. The site also includes a section for client
+              testimonials, metrics indicating project success, and contact
+              information to facilitate networking and job opportunities. The
+              design prioritizes a clean and modern aesthetic, ensuring that the
+              developer's capabilities are presented in the best possible light.
+            </p>
+            <a
+              href="https://akdue.github.io/Portfolio/"
+              class="projects__links"
+              target="_blank"
+              >Live View</a
+            >
+          </div>
+          <img
+            class="projects__img"
+            src="images/project-2.jpg"
+            alt="Quran Station Extension"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Sayes
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Sarah K., Marketing Director at Creative Solutions <br /><br />
+              "I am incredibly impressed with the website Abdalkreem developed
+              for our company. Not only is it visually stunning, but it also
+              performs seamlessly across all devices. Their attention to detail
+              and commitment to delivering high-quality work is evident in every
+              aspect of the site. We’ve already seen an increase in user
+              engagement and leads since the launch!"
+            </p>
+            <p class="clients__opinion">
+              Mohammed T., Founder of StartUp Hub <br /><br />
+              "Choosing Abdalkreem for our web development project was one of
+              the best decisions we’ve made. They took the time to understand
+              our unique needs and delivered a product that perfectly matches
+              our brand and functionality requirements. The ongoing support and
+              responsiveness have been phenomenal. We look forward to continuing
+              our partnership for future projects."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Got it! Here’s a revised version: Feel free to reach out to me with
+            any questions, comments, or feedback. I am here to assist you and
+            ensure you have the best experience possible. You can contact me
+            through the following methods:
+          </p>
+
+          <a class="contact__email" href="mailto:hello@abdalkreem.com"
+            >hello@abdalkreem.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/abdalkreemabuaresh/"
+              class="contact__social"
+              target="_blank"
+              ><img
+                class="contact__img"
+                src="./images/brand/facebook.svg"
+                alt="facebook logo"
+            /></a>
+            <a
+              href="https://github.com/akdue"
+              class="contact__social"
+              target="_blank"
+              ><img
+                class="contact__img"
+                src="./images/brand/github.svg"
+                alt="github logo"
+            /></a>
+            <a
+              href="https://www.instagram.com/alkreeem/"
+              class="contact__social"
+              target="_blank"
+              ><img
+                class="contact__img"
+                src="./images/brand/instagram.svg"
+                alt="instagram logo"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/abdalkreem/"
+              class="contact__social"
+              target="_blank"
+              ><img
+                class="contact__img"
+                src="./images/brand/LinkedIn.svg"
+                alt="LinkedIn logo"
+            /></a>
+            <a
+              href="https://x.com/AbdalkreemAA"
+              class="contact__social"
+              target="_blank"
+              ><img
+                class="contact__img"
+                src="./images/brand/twitter.svg"
+                alt="twitter logo"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact__fromContent">
+          <h2 class="h2-heading">
+            Let's Work <br />
+            Together!
+          </h2>
+
+          <form action="results.html" target="_blank">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="fullName"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{10}"
+                name="telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              placeholder="Your Message"
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">&copy; 2024 Abdalkreem Abuaresh</footer>
+    </div>
+
+    <!-- Enable Horizontal Scrolling To Clients Section -->
+    <script>
+      // Wait until the DOM is fully loaded before running the script
+      document.addEventListener("DOMContentLoaded", function () {
+        // Select the element with class "clients__wrapper"
+        const clientsWrapper = document.querySelector(".clients__wrapper");
+
+        // Add an event listener for the wheel event (mouse wheel scroll)
+        clientsWrapper.addEventListener("wheel", function (e) {
+          // Prevent the default vertical scrolling behavior
+          e.preventDefault();
+
+          // Set the scroll amount to the width of the clientsWrapper element
+          const scrollAmount = clientsWrapper.clientWidth;
+
+          // Check the direction of the scroll (down or up)
+          if (e.deltaY > 0) {
+            // Scroll to the right if scrolling down
+            clientsWrapper.scrollBy({ left: scrollAmount, behavior: "smooth" });
+          } else {
+            // Scroll to the left if scrolling up
+            clientsWrapper.scrollBy({
+              left: -scrollAmount,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
